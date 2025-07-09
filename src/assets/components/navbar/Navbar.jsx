@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link to="/service" onClick={() => setIsOpen(false)}>Services</Link>
           </li>
           <li className="p-2 hover:bg-blue-600 md:hover:bg-transparent">
-            <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+            <Link to="/appointment" onClick={() => setIsOpen(false)}>contact</Link>
           </li>
         </ul>
       </div>
